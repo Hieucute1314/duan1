@@ -1,0 +1,91 @@
+/* Định dạng cho các phần tử <p> */
+p {
+  color: rgba(145, 56, 98, 0.778); /* Màu chữ với độ trong suốt */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Font chữ */
+  font-size: medium; /* Kích thước chữ trung bình */
+}
+
+/* Định dạng cho phần tử <nav> */
+nav {
+  display: flex; /* Sử dụng Flexbox để bố trí các phần tử con */
+  justify-content: space-between; /* Căn giữa các phần tử con theo chiều ngang */
+  align-items: center; /* Căn giữa các phần tử con theo chiều dọc */
+  background-color: blueviolet; /* Màu nền */
+  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ phần tử */
+  background-position: center; /* Căn giữa ảnh nền */
+  padding: 10px; /* Khoảng đệm bên trong phần tử */
+}
+
+/* Định dạng cho phần tử chứa logo */
+nav .logo {
+  display: flex; /* Sử dụng Flexbox để bố trí các phần tử con */
+  align-items: center; /* Căn giữa các phần tử con theo chiều dọc */
+}
+
+/* Định dạng cho ảnh logo */
+nav .logo img {
+  height: 40px; /* Chiều cao của ảnh logo */
+  margin-right: 10px; /* Khoảng cách bên phải của ảnh logo */
+}
+
+/* Định dạng cho tên web */
+nav .logo .site-name {
+  font-family: "Arial", sans-serif; /* Font chữ cho tên web */
+  font-size: 1.5em; /* Kích thước chữ */
+  color: #060000; /* Màu chữ */
+}
+
+/* Định dạng cho danh sách liên kết */
+nav ul {
+  list-style: none; /* Loại bỏ dấu đầu dòng */
+  display: flex; /* Sử dụng Flexbox để bố trí các phần tử con */
+  gap: 20px; /* Khoảng cách giữa các liên kết */
+  margin: 0; /* Loại bỏ khoảng cách mặc định */
+  padding: 0; /* Loại bỏ khoảng đệm mặc định */
+  flex-grow: 1; /* Cho phép danh sách liên kết mở rộng để chiếm không gian còn lại */
+  justify-content: center; /* Căn giữa danh sách liên kết */
+}
+
+nav ul li a {
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: #060000; /* Màu chữ */
+  font-weight: bold; /* Đậm chữ */
+  font-family: "Verdana", sans-serif; /* Font chữ cho danh sách liên kết */
+}
+
+/* Định dạng cho phần mô tả */
+.description {
+  background-color: rgb(232, 6, 137); /* Màu nền cho phần mô tả */
+  padding: 20px; /* Khoảng đệm bên trong phần tử */
+  border-radius: 5px; /* Bo góc cho phần tử */
+  margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+#Mota1 {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  list-style: none;
+}
+
+/* Định dạng cho phần "Đặt lịch ngay" */
+.booking {
+  background-color: #ffcc00; /* Màu nền */
+  padding: 15px 30px; /* Khoảng đệm bên trong phần tử */
+  border-radius: 5px; /* Bo góc cho phần tử */
+  text-align: center; /* Căn giữa nội dung */
+  margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+.booking a {
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: #000; /* Màu chữ */
+  font-weight: bold; /* Đậm chữ */
+  font-family: "Verdana", sans-serif; /* Font chữ */
+}
+#Mota2 {
+  color: #000;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
